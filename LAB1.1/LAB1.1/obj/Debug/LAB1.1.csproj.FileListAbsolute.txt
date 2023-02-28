@@ -1,0 +1,8 @@
+D:\Aiub\7th-Semester\C#\LAB1.1\LAB1.1\bin\Debug\LAB1.1.exe.config
+D:\Aiub\7th-Semester\C#\LAB1.1\LAB1.1\bin\Debug\LAB1.1.exe
+D:\Aiub\7th-Semester\C#\LAB1.1\LAB1.1\bin\Debug\LAB1.1.pdb
+D:\Aiub\7th-Semester\C#\LAB1.1\LAB1.1\obj\Debug\LAB1.1.csproj.AssemblyReference.cache
+D:\Aiub\7th-Semester\C#\LAB1.1\LAB1.1\obj\Debug\LAB1.1.csproj.SuggestedBindingRedirects.cache
+D:\Aiub\7th-Semester\C#\LAB1.1\LAB1.1\obj\Debug\LAB1.1.csproj.CoreCompileInputs.cache
+D:\Aiub\7th-Semester\C#\LAB1.1\LAB1.1\obj\Debug\LAB1.1.exe
+D:\Aiub\7th-Semester\C#\LAB1.1\LAB1.1\obj\Debug\LAB1.1.pdb

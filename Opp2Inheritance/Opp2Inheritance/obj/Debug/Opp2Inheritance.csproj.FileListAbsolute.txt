@@ -1,0 +1,8 @@
+D:\Aiub\7th-Semester\C#\Opp2Inheritance\Opp2Inheritance\bin\Debug\Opp2Inheritance.exe.config
+D:\Aiub\7th-Semester\C#\Opp2Inheritance\Opp2Inheritance\bin\Debug\Opp2Inheritance.exe
+D:\Aiub\7th-Semester\C#\Opp2Inheritance\Opp2Inheritance\bin\Debug\Opp2Inheritance.pdb
+D:\Aiub\7th-Semester\C#\Opp2Inheritance\Opp2Inheritance\obj\Debug\Opp2Inheritance.csproj.AssemblyReference.cache
+D:\Aiub\7th-Semester\C#\Opp2Inheritance\Opp2Inheritance\obj\Debug\Opp2Inheritance.csproj.SuggestedBindingRedirects.cache
+D:\Aiub\7th-Semester\C#\Opp2Inheritance\Opp2Inheritance\obj\Debug\Opp2Inheritance.csproj.CoreCompileInputs.cache
+D:\Aiub\7th-Semester\C#\Opp2Inheritance\Opp2Inheritance\obj\Debug\Opp2Inheritance.exe
+D:\Aiub\7th-Semester\C#\Opp2Inheritance\Opp2Inheritance\obj\Debug\Opp2Inheritance.pdb

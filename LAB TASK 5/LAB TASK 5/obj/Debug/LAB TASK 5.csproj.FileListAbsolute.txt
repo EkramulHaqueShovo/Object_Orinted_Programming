@@ -1,0 +1,8 @@
+D:\Aiub\7th-Semester\C#\LAB TASK 5\LAB TASK 5\bin\Debug\LAB TASK 5.exe.config
+D:\Aiub\7th-Semester\C#\LAB TASK 5\LAB TASK 5\bin\Debug\LAB TASK 5.exe
+D:\Aiub\7th-Semester\C#\LAB TASK 5\LAB TASK 5\bin\Debug\LAB TASK 5.pdb
+D:\Aiub\7th-Semester\C#\LAB TASK 5\LAB TASK 5\obj\Debug\LAB TASK 5.csproj.AssemblyReference.cache
+D:\Aiub\7th-Semester\C#\LAB TASK 5\LAB TASK 5\obj\Debug\LAB TASK 5.csproj.SuggestedBindingRedirects.cache
+D:\Aiub\7th-Semester\C#\LAB TASK 5\LAB TASK 5\obj\Debug\LAB TASK 5.csproj.CoreCompileInputs.cache
+D:\Aiub\7th-Semester\C#\LAB TASK 5\LAB TASK 5\obj\Debug\LAB TASK 5.exe
+D:\Aiub\7th-Semester\C#\LAB TASK 5\LAB TASK 5\obj\Debug\LAB TASK 5.pdb
