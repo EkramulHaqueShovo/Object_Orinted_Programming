@@ -56,7 +56,7 @@ namespace LAB_FINAL
             Console.WriteLine("Employee information :\n");
             Console.WriteLine("Employee name :" + getName());
             Console.WriteLine("Employee dob :" + getDob());
-            Console.WriteLine("Employee acc " + acc);
+            Console.WriteLine("Employee acc :" + acc);
         }
     }
     class customer:person
@@ -84,10 +84,10 @@ namespace LAB_FINAL
     {
         static void Main(string[] args)
         {
-            Employee E1 = new Employee("Ekramul","08-12-2000","deposit");
+            Employee E1 = new Employee("Ekramul","08-12-2000","deposit\n");
             customer C1 = new customer("Rabbi","01-2-2001","saving");
             E1.display();
-            Console.WriteLine("Customer information: ");
+        
             C1.display();
             Console.ReadLine();
         }
