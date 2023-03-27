@@ -79,6 +79,11 @@ namespace FINAL_project_login
         {
 
         }
+
+        private void Registration_button_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
         
