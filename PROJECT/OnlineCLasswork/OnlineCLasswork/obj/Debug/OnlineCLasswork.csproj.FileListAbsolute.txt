@@ -1,8 +1,0 @@
-D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\PROJECT\OnlineCLasswork\OnlineCLasswork\bin\Debug\OnlineCLasswork.exe.config
-D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\PROJECT\OnlineCLasswork\OnlineCLasswork\bin\Debug\OnlineCLasswork.exe
-D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\PROJECT\OnlineCLasswork\OnlineCLasswork\bin\Debug\OnlineCLasswork.pdb
-D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\PROJECT\OnlineCLasswork\OnlineCLasswork\obj\Debug\OnlineCLasswork.csproj.AssemblyReference.cache
-D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\PROJECT\OnlineCLasswork\OnlineCLasswork\obj\Debug\OnlineCLasswork.csproj.SuggestedBindingRedirects.cache
-D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\PROJECT\OnlineCLasswork\OnlineCLasswork\obj\Debug\OnlineCLasswork.csproj.CoreCompileInputs.cache
-D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\PROJECT\OnlineCLasswork\OnlineCLasswork\obj\Debug\OnlineCLasswork.exe
-D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\PROJECT\OnlineCLasswork\OnlineCLasswork\obj\Debug\OnlineCLasswork.pdb
