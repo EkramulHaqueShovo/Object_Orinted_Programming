@@ -1,64 +1,77 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ConsoleApp1
+class Vehicle
 {
-    internal class Program
+    public string Brand { get; set; }
+    public string Model { get; set; }
+    public int YearOfManufacture { get; set; }
+
+    public virtual void StartEngine()
     {
-        static void Main(string[] args)
-        {
-            int[,] arr = new int[3, 3];
-
-            Console.WriteLine("Enter elements of the 2D array:");
-            for (int i = 0; i < 3; i++)
-            {
-                for (int j = 0; j < 3; j++)
-                {
-                    Console.Write("Element({0},{1}): ", i, j);
-                    arr[i, j] = int.Parse(Console.ReadLine());
-                }
-            }
-
-            Console.WriteLine("The array is:");
-            for (int i = 0; i < 3; i++)
-            {
-                for (int j = 0; j < 3; j++)
-                {
-                    Console.Write(arr[i, j] + " ");
-                }
-                Console.WriteLine();
-            }
-
-            Console.WriteLine("The sum of each row is:");
-            for (int i = 0; i < 3; i++)
-            {
-                int rowSum = 0;
-                for (int j = 0; j < 3; j++)
-                {
-                    rowSum += arr[i, j];
-                }
-                Console.WriteLine("Row {0}: {1}", i, rowSum);
-            }
-
-            Console.WriteLine("The sum of each column is:");
-            for (int i = 0; i < 3; i++)
-            {
-                int columnSum = 0;
-                for (int j = 0; j < 3; j++)
-                {
-                    columnSum += arr[j, i];
-                }
-                Console.WriteLine("Column {0}: {1}", i, columnSum);
-            }
-
-            Console.ReadKey();
-        }
+        Console.WriteLine("The engine has started.");
     }
 }
-    
 
+class Car : Vehicle
+{
+    public int NumberOfDoors { get; set; }
 
+    public override void StartEngine()
+    {
+        Console.WriteLine("The car's engine has started.");
+    }
+}
 
+class Motorcycle : Vehicle
+{
+    public int EngineDisplacement { get; set; }
+
+    public override void StartEngine()
+    {
+        Console.WriteLine("The motorcycle's engine has started.");
+    }
+}
+
+class Truck : Vehicle
+{
+    public int MaximumWeight { get; set; }
+
+    public override void StartEngine()
+    {
+        Console.WriteLine("The truck's engine has started.");
+    }
+}
+
+class VehicleDemo
+{
+    static void Main(string[] args)
+    {
+        Car car = new Car()
+        {
+            Brand = "Toyota",
+            Model = "Camry",
+            YearOfManufacture = 2021,
+            NumberOfDoors = 4
+        };
+        car.StartEngine();
+
+        Motorcycle motorcycle = new Motorcycle()
+        {
+            Brand = "Honda",
+            Model = "CBR1000RR",
+            YearOfManufacture = 2022,
+            EngineDisplacement = 999
+        };
+        motorcycle.StartEngine();
+
+        Truck truck = new Truck()
+        {
+            Brand = "Ford",
+            Model = "F-150",
+            YearOfManufacture = 2020,
+            MaximumWeight = 8000
+        };
+        truck.StartEngine();
+        Console.ReadLine();
+    }
+}
