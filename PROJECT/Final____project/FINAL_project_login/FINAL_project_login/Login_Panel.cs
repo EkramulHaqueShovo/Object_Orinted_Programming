@@ -4,6 +4,7 @@ namespace FINAL_project_login
 {
     public partial class Loginpanel : Form
     {
+        Admin_panel A1;
         public Loginpanel()
         {
             InitializeComponent();
@@ -62,12 +63,20 @@ namespace FINAL_project_login
         private void Login_button_Click(object sender, EventArgs e)
         {
            
-            if(UserName_textbox1.Text!=" " && Password_textbox2.Text!="" ) {
-                UserName_textbox1.Clear();
-                Password_textbox2.Clear();
-                MessageBox.Show("Submitted");
-            
+
+            if ((UserName_textbox1.Text == "Admin") &&( Password_textbox2.Text == "Admin"))
+            {
+                this.Hide();
+                A1 = new Admin_panel();
+                A1.Show();
+
             }
+            else
+            {
+                MessageBox.Show("Wrong password!");
+            }
+
+
         }
 
         private void Login_textbox1_TextChanged_1(object sender, EventArgs e)
@@ -81,6 +90,11 @@ namespace FINAL_project_login
         }
 
         private void Registration_button_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }
