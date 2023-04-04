@@ -10,27 +10,24 @@ using System.Windows.Forms;
 
 namespace FINAL_project_login
 {
-    public partial class Admin_panel : Form
+    public partial class Search_Panel : Form
     {
-        Loginpanel l1;
-        public Admin_panel()
+        Admin_panel a1;
+        public Search_Panel()
         {
             InitializeComponent();
         }
 
-        private void Exit_button1_Click(object sender, EventArgs e)
+        private void SearchAdmin_button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            l1 = new Loginpanel();
-            l1.Show();
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            l1 = new Loginpanel();
-            l1.Show();
-
+            a1= new Admin_panel();
+            a1.Show();
         }
     }
 }
