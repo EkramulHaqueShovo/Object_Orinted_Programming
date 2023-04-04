@@ -77,6 +77,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(293, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(149, 32);
@@ -98,6 +99,7 @@
             this.ExitAdmin_button1.Text = "logout";
             this.ExitAdmin_button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.ExitAdmin_button1.UseVisualStyleBackColor = false;
+            this.ExitAdmin_button1.Click += new System.EventHandler(this.ExitAdmin_button1_Click);
             // 
             // Back_button1
             // 

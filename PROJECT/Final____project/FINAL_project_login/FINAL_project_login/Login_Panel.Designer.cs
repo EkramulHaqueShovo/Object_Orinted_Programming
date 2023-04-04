@@ -81,6 +81,7 @@
             this.checkBox_showpassword.TabIndex = 16;
             this.checkBox_showpassword.Text = "Show Password";
             this.checkBox_showpassword.UseVisualStyleBackColor = true;
+            this.checkBox_showpassword.CheckedChanged += new System.EventHandler(this.checkBox_showpassword_CheckedChanged);
             // 
             // label4
             // 
@@ -180,7 +181,6 @@
             this.Password_textbox2.Location = new System.Drawing.Point(106, 543);
             this.Password_textbox2.Margin = new System.Windows.Forms.Padding(1, 3, 1, 3);
             this.Password_textbox2.Name = "Password_textbox2";
-            this.Password_textbox2.PasswordChar = '*';
             this.Password_textbox2.Size = new System.Drawing.Size(376, 43);
             this.Password_textbox2.TabIndex = 7;
             this.Password_textbox2.TextChanged += new System.EventHandler(this.Login_textbox2_TextChanged_1);

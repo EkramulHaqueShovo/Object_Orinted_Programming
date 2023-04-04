@@ -111,6 +111,7 @@
             this.SearchAdmin_button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SearchAdmin_button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.SearchAdmin_button1.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.SearchAdmin_button1.Image = ((System.Drawing.Image)(resources.GetObject("SearchAdmin_button1.Image")));
             this.SearchAdmin_button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.SearchAdmin_button1.Location = new System.Drawing.Point(10, 283);
             this.SearchAdmin_button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);

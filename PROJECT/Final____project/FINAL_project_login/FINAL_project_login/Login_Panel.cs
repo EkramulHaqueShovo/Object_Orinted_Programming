@@ -32,6 +32,7 @@ namespace FINAL_project_login
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            Password_textbox2.UseSystemPasswordChar = true;
 
         }
 
@@ -97,6 +98,18 @@ namespace FINAL_project_login
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void checkBox_showpassword_CheckedChanged(object sender, EventArgs e)
+        {
+            if(checkBox_showpassword.Checked)
+            {
+                Password_textbox2.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                Password_textbox2.UseSystemPasswordChar=true;
+            }
         }
     }
 
