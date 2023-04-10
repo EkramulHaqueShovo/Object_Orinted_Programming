@@ -1,0 +1,8 @@
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\PROJECT\Final____project\Interface\Interface\bin\Debug\Interface.exe.config
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\PROJECT\Final____project\Interface\Interface\bin\Debug\Interface.exe
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\PROJECT\Final____project\Interface\Interface\bin\Debug\Interface.pdb
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\PROJECT\Final____project\Interface\Interface\obj\Debug\Interface.csproj.AssemblyReference.cache
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\PROJECT\Final____project\Interface\Interface\obj\Debug\Interface.csproj.SuggestedBindingRedirects.cache
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\PROJECT\Final____project\Interface\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\PROJECT\Final____project\Interface\Interface\obj\Debug\Interface.exe
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\PROJECT\Final____project\Interface\Interface\obj\Debug\Interface.pdb

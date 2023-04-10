@@ -14,6 +14,9 @@ namespace FINAL_project_login
     {
         Loginpanel l1;
         Search_Panel s1;
+        Notice_panel np1;
+        EmpForm ef1;
+        TaskForm tf;
         public Admin_panel()
         {
             InitializeComponent();
@@ -44,6 +47,28 @@ namespace FINAL_project_login
             this.Hide();
             s1 = new Search_Panel();
             s1.Show();
+
+        }
+
+        private void NoticeAdmin_button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            np1 = new Notice_panel();
+            np1.Show();
+        }
+
+        private void EMpAdmin_button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ef1= new EmpForm();
+            ef1.Show();
+        }
+
+        private void Taskbutton1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            tf = new TaskForm();
+            tf.Show();
 
         }
     }

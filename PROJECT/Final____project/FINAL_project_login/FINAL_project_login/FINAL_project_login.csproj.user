@@ -4,10 +4,19 @@
     <Compile Update="Admin_panel.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="EmpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Login_Panel.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Notice_panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Search_Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TaskForm.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
