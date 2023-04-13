@@ -1,0 +1,11 @@
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\Calculator_Standard\Calculator_Standard\bin\Debug\Calculator_Standard.exe.config
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\Calculator_Standard\Calculator_Standard\bin\Debug\Calculator_Standard.exe
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\Calculator_Standard\Calculator_Standard\bin\Debug\Calculator_Standard.pdb
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\Calculator_Standard\Calculator_Standard\obj\Debug\Calculator_Standard.csproj.AssemblyReference.cache
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\Calculator_Standard\Calculator_Standard\obj\Debug\Calculator_Standard.csproj.SuggestedBindingRedirects.cache
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\Calculator_Standard\Calculator_Standard\obj\Debug\Calculator_Standard.Form1.resources
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\Calculator_Standard\Calculator_Standard\obj\Debug\Calculator_Standard.Properties.Resources.resources
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\Calculator_Standard\Calculator_Standard\obj\Debug\Calculator_Standard.csproj.GenerateResource.cache
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\Calculator_Standard\Calculator_Standard\obj\Debug\Calculator_Standard.csproj.CoreCompileInputs.cache
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\Calculator_Standard\Calculator_Standard\obj\Debug\Calculator_Standard.exe
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\Calculator_Standard\Calculator_Standard\obj\Debug\Calculator_Standard.pdb
