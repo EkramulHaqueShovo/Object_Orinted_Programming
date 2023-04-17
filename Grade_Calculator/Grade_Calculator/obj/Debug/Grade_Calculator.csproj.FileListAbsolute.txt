@@ -1,0 +1,11 @@
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\Grade_Calculator\Grade_Calculator\bin\Debug\Grade_Calculator.exe.config
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\Grade_Calculator\Grade_Calculator\bin\Debug\Grade_Calculator.exe
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\Grade_Calculator\Grade_Calculator\bin\Debug\Grade_Calculator.pdb
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\Grade_Calculator\Grade_Calculator\obj\Debug\Grade_Calculator.csproj.AssemblyReference.cache
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\Grade_Calculator\Grade_Calculator\obj\Debug\Grade_Calculator.csproj.SuggestedBindingRedirects.cache
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\Grade_Calculator\Grade_Calculator\obj\Debug\Grade_Calculator.Form1.resources
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\Grade_Calculator\Grade_Calculator\obj\Debug\Grade_Calculator.Properties.Resources.resources
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\Grade_Calculator\Grade_Calculator\obj\Debug\Grade_Calculator.csproj.GenerateResource.cache
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\Grade_Calculator\Grade_Calculator\obj\Debug\Grade_Calculator.csproj.CoreCompileInputs.cache
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\Grade_Calculator\Grade_Calculator\obj\Debug\Grade_Calculator.exe
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\Grade_Calculator\Grade_Calculator\obj\Debug\Grade_Calculator.pdb
