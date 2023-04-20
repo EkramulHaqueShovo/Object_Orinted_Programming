@@ -21,3 +21,5 @@ D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\PROJECT\Final____project\FINA
 D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\PROJECT\Final____project\FINAL_project_login\FINAL_project_login\obj\Debug\net6.0-windows\FINAL_project_login.Notice_panel.resources
 D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\PROJECT\Final____project\FINAL_project_login\FINAL_project_login\obj\Debug\net6.0-windows\FINAL_project_login.EmpForm.resources
 D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\PROJECT\Final____project\FINAL_project_login\FINAL_project_login\obj\Debug\net6.0-windows\FINAL_project_login.TaskForm.resources
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\PROJECT\Final____project\FINAL_project_login\FINAL_project_login\obj\Debug\net6.0-windows\FINAL_project_login.Manager_Panel.resources
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\PROJECT\Final____project\FINAL_project_login\FINAL_project_login\obj\Debug\net6.0-windows\FINAL_project_login.Manager.EMP_MForm.resources

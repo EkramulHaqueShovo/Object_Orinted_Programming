@@ -5,6 +5,7 @@ namespace FINAL_project_login
     public partial class Loginpanel : Form
     {
         Admin_panel A1;
+        Manager_Panel mp1;
         public Loginpanel()
         {
             InitializeComponent();
@@ -71,8 +72,14 @@ namespace FINAL_project_login
                 A1 = new Admin_panel();
                 A1.Show();
 
+            }else if((UserName_textbox1.Text == "manager") && (Password_textbox2.Text == "manager"))
+            {
+                this.Hide();
+                mp1 = new Manager_Panel();
+                mp1.Show();
+
             }
-            else
+            else 
             {
                 MessageBox.Show("Wrong password!");
             }

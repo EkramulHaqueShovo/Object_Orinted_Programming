@@ -37,6 +37,7 @@
             this.EMpS_button1 = new System.Windows.Forms.Button();
             this.NoticeS_button1 = new System.Windows.Forms.Button();
             this.HomeAdminS_button = new System.Windows.Forms.Button();
+            this.Taskbutton1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -95,7 +96,7 @@
             this.ExitS_button1.ForeColor = System.Drawing.SystemColors.Desktop;
             this.ExitS_button1.Image = ((System.Drawing.Image)(resources.GetObject("ExitS_button1.Image")));
             this.ExitS_button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.ExitS_button1.Location = new System.Drawing.Point(13, 559);
+            this.ExitS_button1.Location = new System.Drawing.Point(13, 625);
             this.ExitS_button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ExitS_button1.Name = "ExitS_button1";
             this.ExitS_button1.Size = new System.Drawing.Size(181, 63);
@@ -113,7 +114,7 @@
             this.EMpS_button1.ForeColor = System.Drawing.SystemColors.Desktop;
             this.EMpS_button1.Image = ((System.Drawing.Image)(resources.GetObject("EMpS_button1.Image")));
             this.EMpS_button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.EMpS_button1.Location = new System.Drawing.Point(13, 427);
+            this.EMpS_button1.Location = new System.Drawing.Point(16, 406);
             this.EMpS_button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.EMpS_button1.Name = "EMpS_button1";
             this.EMpS_button1.Size = new System.Drawing.Size(181, 65);
@@ -159,12 +160,30 @@
             this.HomeAdminS_button.UseVisualStyleBackColor = false;
             this.HomeAdminS_button.Click += new System.EventHandler(this.HomeAdminS_button_Click);
             // 
+            // Taskbutton1
+            // 
+            this.Taskbutton1.BackColor = System.Drawing.Color.Transparent;
+            this.Taskbutton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Taskbutton1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Taskbutton1.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.Taskbutton1.Image = ((System.Drawing.Image)(resources.GetObject("Taskbutton1.Image")));
+            this.Taskbutton1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Taskbutton1.Location = new System.Drawing.Point(13, 512);
+            this.Taskbutton1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Taskbutton1.Name = "Taskbutton1";
+            this.Taskbutton1.Size = new System.Drawing.Size(184, 65);
+            this.Taskbutton1.TabIndex = 30;
+            this.Taskbutton1.Text = "Assign Task";
+            this.Taskbutton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Taskbutton1.UseVisualStyleBackColor = false;
+            // 
             // Search_Panel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(1061, 725);
+            this.Controls.Add(this.Taskbutton1);
             this.Controls.Add(this.EMpS_button1);
             this.Controls.Add(this.NoticeS_button1);
             this.Controls.Add(this.HomeAdminS_button);
@@ -194,5 +213,6 @@
         private Button EMpS_button1;
         private Button NoticeS_button1;
         private Button HomeAdminS_button;
+        private Button Taskbutton1;
     }
 }

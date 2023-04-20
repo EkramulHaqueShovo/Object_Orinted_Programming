@@ -39,12 +39,14 @@
             this.ExitAdmin_button1 = new System.Windows.Forms.Button();
             this.HomeAdminS_button = new System.Windows.Forms.Button();
             this.Taskbutton1 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.Control;
+            this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
@@ -60,7 +62,7 @@
             this.button3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.SystemColors.Desktop;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.Location = new System.Drawing.Point(521, 642);
+            this.button3.Location = new System.Drawing.Point(459, 638);
             this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(131, 42);
@@ -75,7 +77,7 @@
             this.button2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.SystemColors.Desktop;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.Location = new System.Drawing.Point(352, 642);
+            this.button2.Location = new System.Drawing.Point(290, 638);
             this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(131, 42);
@@ -90,7 +92,7 @@
             this.button1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.SystemColors.Desktop;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.Location = new System.Drawing.Point(179, 642);
+            this.button1.Location = new System.Drawing.Point(117, 638);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(131, 42);
@@ -197,6 +199,21 @@
             this.Taskbutton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Taskbutton1.UseVisualStyleBackColor = false;
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button4.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button4.Location = new System.Drawing.Point(622, 638);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(131, 42);
+            this.button4.TabIndex = 23;
+            this.button4.Text = "Update";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
             // EmpForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
@@ -232,5 +249,6 @@
         private Button button2;
         private Button button1;
         private Button Taskbutton1;
+        private Button button4;
     }
 }
