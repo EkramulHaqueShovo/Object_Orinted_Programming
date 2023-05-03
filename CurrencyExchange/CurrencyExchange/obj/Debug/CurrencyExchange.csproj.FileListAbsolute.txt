@@ -1,0 +1,11 @@
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\CurrencyExchange\CurrencyExchange\bin\Debug\CurrencyExchange.exe.config
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\CurrencyExchange\CurrencyExchange\bin\Debug\CurrencyExchange.exe
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\CurrencyExchange\CurrencyExchange\bin\Debug\CurrencyExchange.pdb
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\CurrencyExchange\CurrencyExchange\obj\Debug\CurrencyExchange.csproj.AssemblyReference.cache
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\CurrencyExchange\CurrencyExchange\obj\Debug\CurrencyExchange.csproj.SuggestedBindingRedirects.cache
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\CurrencyExchange\CurrencyExchange\obj\Debug\CurrencyExchange.Form1.resources
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\CurrencyExchange\CurrencyExchange\obj\Debug\CurrencyExchange.Properties.Resources.resources
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\CurrencyExchange\CurrencyExchange\obj\Debug\CurrencyExchange.csproj.GenerateResource.cache
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\CurrencyExchange\CurrencyExchange\obj\Debug\CurrencyExchange.csproj.CoreCompileInputs.cache
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\CurrencyExchange\CurrencyExchange\obj\Debug\CurrencyExchange.exe
+D:\Aiub\7th-Semester\C#\Object_Orinted_Programming\CurrencyExchange\CurrencyExchange\obj\Debug\CurrencyExchange.pdb

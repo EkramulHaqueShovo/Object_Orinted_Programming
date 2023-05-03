@@ -14,8 +14,8 @@ namespace FINAL_project_login
     public partial class Manager_Panel : Form
     {
         Loginpanel l2;
-        
-       
+
+        EMP_MANAGER_Form EmF2;
         Notice_panel np2;
         TaskForm tf2;
         Search_Panel sp2;
@@ -55,8 +55,8 @@ namespace FINAL_project_login
         private void EMpADD_AdminS_button_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Emp2 = new EMP_MForm();
-            Emp2.Show();
+            EmF2 = new EMP_MANAGER_Form();
+            EmF2.Show();
         }
     }
 }

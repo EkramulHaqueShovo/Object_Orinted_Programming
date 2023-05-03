@@ -58,7 +58,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="ExitAdmin_button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="MGExit_button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABGdBTUEAALGPC/xhBQAAAbRJREFUWEft
         mT1OAzEQhV2lTsVJkHIEUqSiS58DUHCBVNQcgJYrwDG4BiUSFUKC9zwZ2bssa+/aa7vYkb7RbjSxn8Z/
@@ -71,7 +71,7 @@
         ke2H2pzHwfwCf8ydnE84tkIAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="EMpADD_AdminS_button.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="MGhome_button.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAnBJREFUaEPt
         mStyG0EURQ0MjcQChYzNXWUYYNPswNxZhZfhJQR7AWEBqfDAoLCgwPjcKT9Xq3Vnenp+yiRzqg7Qm9ct
@@ -87,7 +87,7 @@
         PnixZm1xjdriGrXF9Xl39gIzlfIQYgpVXwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="NoticeAdmin_button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="MGNotice_button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABGdBTUEAALGPC/xhBQAAAtFJREFUWEft
         mD1SHDEQhckISQi5ADEJhI5cVHEAbkDqjISAlNwH4Aa+gE/g3BfwCRw5cZWL93m71xrtG600O8YO6Kqv
@@ -105,7 +105,7 @@
         v80AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="SearchAdmin_button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="MGSearch_button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABGdBTUEAALGPC/xhBQAAAyFJREFUWEfN
         mKFWJDEQRccgsUg+gB/gBzgHAw6PHYlYNxaLxPIFa1dicCvXrV2JwyGXdyddTHW6upOe6aZ557yZnlBJ
