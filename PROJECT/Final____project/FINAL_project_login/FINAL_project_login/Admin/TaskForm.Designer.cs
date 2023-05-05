@@ -35,6 +35,7 @@
             this.NoticeAdmin_button1 = new System.Windows.Forms.Button();
             this.SearchAdmin_button1 = new System.Windows.Forms.Button();
             this.ExitAdmin_button1 = new System.Windows.Forms.Button();
+            this.HomeAdminS_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // panel1
@@ -42,7 +43,7 @@
             this.panel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.panel1.Location = new System.Drawing.Point(212, -35);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(857, 721);
+            this.panel1.Size = new System.Drawing.Size(946, 775);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -63,7 +64,7 @@
             this.EMpAdmin_button1.ForeColor = System.Drawing.SystemColors.Desktop;
             this.EMpAdmin_button1.Image = ((System.Drawing.Image)(resources.GetObject("EMpAdmin_button1.Image")));
             this.EMpAdmin_button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.EMpAdmin_button1.Location = new System.Drawing.Point(6, 178);
+            this.EMpAdmin_button1.Location = new System.Drawing.Point(6, 247);
             this.EMpAdmin_button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.EMpAdmin_button1.Name = "EMpAdmin_button1";
             this.EMpAdmin_button1.Size = new System.Drawing.Size(199, 65);
@@ -81,7 +82,7 @@
             this.NoticeAdmin_button1.ForeColor = System.Drawing.SystemColors.Desktop;
             this.NoticeAdmin_button1.Image = ((System.Drawing.Image)(resources.GetObject("NoticeAdmin_button1.Image")));
             this.NoticeAdmin_button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.NoticeAdmin_button1.Location = new System.Drawing.Point(6, 396);
+            this.NoticeAdmin_button1.Location = new System.Drawing.Point(6, 465);
             this.NoticeAdmin_button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.NoticeAdmin_button1.Name = "NoticeAdmin_button1";
             this.NoticeAdmin_button1.Size = new System.Drawing.Size(199, 65);
@@ -99,7 +100,7 @@
             this.SearchAdmin_button1.ForeColor = System.Drawing.SystemColors.Desktop;
             this.SearchAdmin_button1.Image = ((System.Drawing.Image)(resources.GetObject("SearchAdmin_button1.Image")));
             this.SearchAdmin_button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.SearchAdmin_button1.Location = new System.Drawing.Point(6, 281);
+            this.SearchAdmin_button1.Location = new System.Drawing.Point(6, 350);
             this.SearchAdmin_button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.SearchAdmin_button1.Name = "SearchAdmin_button1";
             this.SearchAdmin_button1.Size = new System.Drawing.Size(199, 65);
@@ -116,7 +117,7 @@
             this.ExitAdmin_button1.ForeColor = System.Drawing.SystemColors.Desktop;
             this.ExitAdmin_button1.Image = ((System.Drawing.Image)(resources.GetObject("ExitAdmin_button1.Image")));
             this.ExitAdmin_button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.ExitAdmin_button1.Location = new System.Drawing.Point(6, 506);
+            this.ExitAdmin_button1.Location = new System.Drawing.Point(6, 575);
             this.ExitAdmin_button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ExitAdmin_button1.Name = "ExitAdmin_button1";
             this.ExitAdmin_button1.Size = new System.Drawing.Size(199, 68);
@@ -126,12 +127,31 @@
             this.ExitAdmin_button1.UseVisualStyleBackColor = false;
             this.ExitAdmin_button1.Click += new System.EventHandler(this.ExitAdmin_button1_Click);
             // 
+            // HomeAdminS_button
+            // 
+            this.HomeAdminS_button.BackColor = System.Drawing.Color.Transparent;
+            this.HomeAdminS_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.HomeAdminS_button.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.HomeAdminS_button.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.HomeAdminS_button.Image = ((System.Drawing.Image)(resources.GetObject("HomeAdminS_button.Image")));
+            this.HomeAdminS_button.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.HomeAdminS_button.Location = new System.Drawing.Point(6, 146);
+            this.HomeAdminS_button.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.HomeAdminS_button.Name = "HomeAdminS_button";
+            this.HomeAdminS_button.Size = new System.Drawing.Size(199, 65);
+            this.HomeAdminS_button.TabIndex = 25;
+            this.HomeAdminS_button.Text = "Home";
+            this.HomeAdminS_button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.HomeAdminS_button.UseVisualStyleBackColor = false;
+            this.HomeAdminS_button.Click += new System.EventHandler(this.HomeAdminS_button_Click);
+            // 
             // TaskForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1039, 669);
+            this.ClientSize = new System.Drawing.Size(1145, 736);
+            this.Controls.Add(this.HomeAdminS_button);
             this.Controls.Add(this.EMpAdmin_button1);
             this.Controls.Add(this.NoticeAdmin_button1);
             this.Controls.Add(this.SearchAdmin_button1);
@@ -155,5 +175,6 @@
         private Button NoticeAdmin_button1;
         private Button SearchAdmin_button1;
         private Button ExitAdmin_button1;
+        private Button HomeAdminS_button;
     }
 }

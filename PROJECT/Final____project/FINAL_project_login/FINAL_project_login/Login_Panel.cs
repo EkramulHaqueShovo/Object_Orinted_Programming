@@ -1,4 +1,5 @@
 using Microsoft.VisualBasic;
+using System.Data.SqlClient;
 
 namespace FINAL_project_login
 {
@@ -62,30 +63,61 @@ namespace FINAL_project_login
             Application.Exit();
         }
 
+
+
         private void Login_button_Click(object sender, EventArgs e)
         {
-           
-
-            if ((UserName_textbox1.Text == "Admin") &&( Password_textbox2.Text == "Admin"))
+            if (UserName_textbox1.Text == "0000" && Password_textbox2.Text == "0000")
             {
                 this.Hide();
                 A1 = new Admin_panel();
                 A1.Show();
-
-            }else if((UserName_textbox1.Text == "manager") && (Password_textbox2.Text == "manager"))
-            {
-                this.Hide();
-                mp1 = new Manager_Panel();
-                mp1.Show();
-
             }
-            else 
+            
+            else
             {
-                MessageBox.Show("Wrong password!");
-            }
 
+
+                string connectionString = "Data Source=LUMARKIM;Initial Catalog=EMP_CRUD;Integrated Security=True";
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+                    string sql = "SELECT COUNT(*) FROM  Admin_EMP2 WHERE ID=@AdminId AND Password=@AdminPassword";
+                    using (SqlCommand command = new SqlCommand(sql, connection))
+                    {
+                        command.Parameters.AddWithValue("@AdminId", UserName_textbox1.Text);
+
+                        command.Parameters.AddWithValue("@AdminPassword", Password_textbox2.Text);
+                        int count = (int)command.ExecuteScalar();
+                        if (count == 1)
+                        {
+
+                            Manager_Panel mp1 = new Manager_Panel();
+                            mp1.Show();
+                            this.Hide();
+                        }
+                        
+
+                        else
+                        {
+                            MessageBox.Show("Invalid username or password.", "Login Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+
+                    }
+                }
+            }
 
         }
+
+
+       
+          
+        
+       
+    
+
+        
+        
 
         private void Login_textbox1_TextChanged_1(object sender, EventArgs e)
         {

@@ -75,13 +75,39 @@ namespace FINAL_project_login
             command.Parameters.AddWithValue("@AdminPassword", Admin_Emp_passwordtextBox1.Text);
 
             command.ExecuteNonQuery();
-            MessageBox.Show("Insert Successfully!");
+            MessageBox.Show("Insert Successfully!");                
             con.Close();
 
 
 
 
 
+        }
+
+    
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+           
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void EmpForm_Load(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection("Data Source=LUMARKIM;Initial Catalog=EMP_CRUD;Integrated Security=True");
+            con.Open();
+
+            SqlCommand command = new SqlCommand("SELECT * FROM Admin_EMP2", con);
+            SqlDataAdapter adapter = new SqlDataAdapter(command);
+            DataTable dt = new DataTable();
+            adapter.Fill(dt);
+
+            dataGridView1.DataSource = dt;
+
+            con.Close();
         }
     }
 }

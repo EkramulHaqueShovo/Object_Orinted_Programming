@@ -64,7 +64,7 @@
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Location = new System.Drawing.Point(212, -5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(856, 727);
+            this.panel1.Size = new System.Drawing.Size(948, 751);
             this.panel1.TabIndex = 20;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -182,7 +182,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1061, 725);
+            this.ClientSize = new System.Drawing.Size(1145, 736);
             this.Controls.Add(this.Taskbutton1);
             this.Controls.Add(this.EMpS_button1);
             this.Controls.Add(this.NoticeS_button1);

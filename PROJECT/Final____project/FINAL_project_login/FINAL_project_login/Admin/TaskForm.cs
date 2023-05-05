@@ -16,6 +16,7 @@ namespace FINAL_project_login
         Search_Panel s1;
         Notice_panel n1;
         Loginpanel n2;
+        Admin_panel np2;
         public TaskForm()
         {
             InitializeComponent();
@@ -50,6 +51,13 @@ namespace FINAL_project_login
             this.Hide();
             n2 = new Loginpanel();
             n2.Show();
+        }
+
+        private void HomeAdminS_button_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            np2 = new Admin_panel();
+            np2.Show();
         }
     }
 }

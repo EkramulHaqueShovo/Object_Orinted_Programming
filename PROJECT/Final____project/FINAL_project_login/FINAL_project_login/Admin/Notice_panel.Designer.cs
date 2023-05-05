@@ -44,7 +44,7 @@
             this.panel1.Location = new System.Drawing.Point(216, -3);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(852, 731);
+            this.panel1.Size = new System.Drawing.Size(954, 748);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -154,7 +154,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1061, 725);
+            this.ClientSize = new System.Drawing.Size(1145, 736);
             this.Controls.Add(this.Taskbutton1);
             this.Controls.Add(this.SearchAdmin_button1);
             this.Controls.Add(this.label1);
